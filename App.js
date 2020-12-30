@@ -60,7 +60,7 @@ function Main() {
     return await fetch("https://covid-19-data.p.rapidapi.com/totals", {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "a8095841bamsh096696e6bbc18b9p1429d1jsnccffa5439580",
+        "x-rapidapi-key": "RapidApi Key",
         "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
       },
     })
@@ -79,7 +79,7 @@ function Main() {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "a8095841bamsh096696e6bbc18b9p1429d1jsnccffa5439580",
+            "RapidApi Key",
           "x-rapidapi-host": "world-population.p.rapidapi.com",
         },
       }
@@ -132,7 +132,7 @@ function CountryDetails({ route }) {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "a8095841bamsh096696e6bbc18b9p1429d1jsnccffa5439580",
+            "RapidApi Key",
           "x-rapidapi-host": "world-population.p.rapidapi.com",
         },
       }
@@ -154,7 +154,7 @@ function CountryDetails({ route }) {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "a8095841bamsh096696e6bbc18b9p1429d1jsnccffa5439580",
+            "RapidApi Key",
           "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
         },
       }
@@ -280,7 +280,7 @@ function CountryList({ navigation, route }) {
         method: "GET",
         headers: {
           "x-rapidapi-key":
-            "a8095841bamsh096696e6bbc18b9p1429d1jsnccffa5439580",
+            "RapidApi Key",
           "x-rapidapi-host": "world-population.p.rapidapi.com",
         },
       }
